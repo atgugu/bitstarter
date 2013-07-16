@@ -5,7 +5,7 @@ var fs = require('fs');
 var app = express.createServer(express.logger());
 
 
-buf = new Buffer(fs.readFileSync('./index.html');
+buf = new Buffer(fs.readFileSync('index.html');
 var index_content = buf.toString();
 
 
